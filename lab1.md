@@ -1,49 +1,49 @@
-Lab 1
-1 Does Your Processor Support Virtualization?
-Most modern Intel and AMD processors support virtualization (Intel VT-x or AMD-V). If it’s disabled, you can turn it on in the BIOS settings.
+# Lab 1 
 
-2 Why is the Cloud So Popular?
-The cloud has taken off because it’s scalable, cost-effective, and easy to access from anywhere.
+### 1. Check if your processor supports Intel/AMD virtualization technology. Enable Intel virtualization technology in BIOS if possible.  
+Processors from Intel and AMD support virtualization (Intel VT-x or AMD-V). You can check if your system supports virtualization via system tools, and if it’s disabled, you can enable it in the BIOS settings.  
 
-Pros:
+### 2. The cloud is almost everywhere in our lives now. What do you think are the fundamental reasons behind its success? Name three pros and three cons of cloud.  
+The cloud is successful because it offers **scalability, cost efficiency, and accessibility** for both consumers and businesses.  
 
-Saves money on hardware
-Can scale up or down as needed
-Reliable with built-in backups
-Cons:
+**Pros:**  
+- Lower costs for hardware and maintenance  
+- Flexible scalability (scale up or down as needed)  
+- Reliable with built-in redundancy and high availability  
 
-Security risks since data is stored off-site
-Downtime if the provider has an outage
-Hard to switch providers once you're locked in
+**Cons:**  
+- Security concerns, as data is stored off-site  
+- Downtime risks if the cloud service experiences outages  
+- Vendor lock-in, making it difficult to migrate between providers  
 
-3 What Does a Hypervisor Do?
-A hypervisor lets multiple virtual machines (VMs) run on one physical computer by managing hardware resources.
+### 3. What is the primary function of a hypervisor in virtualization?  
+A hypervisor is responsible for managing multiple virtual machines (VMs) on a single physical machine by allocating hardware resources and providing isolation between VMs.  
 
-4 What is a Virtual Machine?
-A VM is a software-based computer that runs its own operating system, separate from the host machine.
+### 4. What is a virtual machine (VM)?  
+A virtual machine is a software emulation of a physical computer. It runs its own operating system (OS) and applications, independent of the underlying physical machine.  
 
-5 Why Use Virtual Machines?
-Makes better use of hardware
-Keeps systems isolated from each other
-Easy to back up or restore
-Can run different operating systems on the same computer
-Can be moved between machines easily
+### 5. What are the benefits of using virtual machines?  
+- Efficient use of hardware resources  
+- Isolation of systems and applications from the host machine  
+- Easy to create backups and snapshots  
+- Ability to run different OSes on the same machine  
+- Portability, allowing VMs to be moved between different physical machines  
 
-6 Five Ways Virtual Machines Are Used
-Powering cloud services like AWS and Azure
-Testing software in different environments
-Cybersecurity research in a safe space
-Running old applications on new hardware
-Disaster recovery with quick backups
+### 6. List five use cases of virtual machines.  
+- Cloud services (e.g., AWS, Azure)  
+- Testing and development of software in different environments  
+- Cybersecurity research and sandboxing  
+- Running legacy applications that require older OSes  
+- Disaster recovery through VM backups  
 
-7 What is the Guest Operating System?
-b) The operating system installed on a virtual machine
+### 7. In virtualization, what is the guest operating system?  
+**b)** The operating system installed on a virtual machine  
 
-8 What is Virtual Machine Isolation?
-c) Virtual machines run independently and are isolated from each other and the host system.
+### 8. What does virtual machine isolation mean?  
+**c)** Virtual machines run independently and are isolated from each other and the host system. This ensures that the operation of one VM does not affect others or the host.  
 
-9 Why Does VM Portability Matter?
-c) It allows virtual machines to be moved between different physical machines with compatible hypervisors.
+### 9. What is the benefit of virtual machine portability?  
+**c)** It allows virtual machines to be moved between different physical machines with compatible hypervisors, making it easier to migrate or scale VMs across infrastructure.  
 
-10 Why Clone a Virtual Machine?
-Cloning makes an exact copy of a VM, which is useful for testing, setting up multiple identical systems, or keeping a backup.
+### 10. What is the purpose of cloning a virtual machine?  
+Cloning a VM creates an exact copy of it, which is useful for testing, deploying multiple identical systems, or creating backups for disaster recovery.
